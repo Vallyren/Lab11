@@ -28,7 +28,9 @@ Test IPsec VPN operation.
 ![2023-04-14_15-08-52](https://user-images.githubusercontent.com/122459067/232039633-33c1ee6a-546b-4fd0-8dee-e712275e3677.png)
 
 ##### Step 2: Configure basic settings for each router.
+
 a.	Configure hostnames, as shown in the topology.
+
 b.	Configure the interface IP addresses, as shown in the Addressing Table.
 
 ![2023-04-14_15-16-43](https://user-images.githubusercontent.com/122459067/232041144-33768e65-f935-4668-b054-63e2453062de.png)
@@ -42,6 +44,12 @@ b.	Configure the interface IP addresses, as shown in the Addressing Table.
 ![2023-04-14_15-25-26](https://user-images.githubusercontent.com/122459067/232042897-13c2fe7d-c8e8-4609-b643-b7a4fa4a81fd.png)
 
 ##### Step 3: Disable DNS lookup.
+
+![2023-04-14_15-30-14](https://user-images.githubusercontent.com/122459067/232043894-085aed90-cbd0-4a6a-8a34-03ac44ac50be.png)
+
+![2023-04-14_15-31-01](https://user-images.githubusercontent.com/122459067/232044032-6d87795f-6d58-4d80-b011-572172b61395.png)
+
+![2023-04-14_15-31-36](https://user-images.githubusercontent.com/122459067/232044166-21ec1761-1043-4372-b4ba-1b16414714ec.png)
 
 ##### Step 4: Configure the OSPF routing protocol on R1, R2, and R3.
 a.	On R1, use the following commands:
