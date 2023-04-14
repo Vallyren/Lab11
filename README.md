@@ -205,13 +205,22 @@ Type your answers here.
 ![2023-04-14_16-54-32](https://user-images.githubusercontent.com/122459067/232063978-b746ea6f-9c4f-4583-a12b-4ce9e5cb4def.png)
 
 ##### Step 6: Create and apply a crypto map.
+
 a.	Create the crypto map on R1, name it CMAP, and use 10 as the sequence number. A message displays after the command is issued.
+
+![2023-04-14_16-56-19](https://user-images.githubusercontent.com/122459067/232064600-4cf495bd-f381-431b-888f-c971166e35fe.png)
 
 b.	Use the match address <access-list> command to specify which access list defines which traffic to encrypt.
 
+![2023-04-14_16-57-11](https://user-images.githubusercontent.com/122459067/232064933-a9f220b2-0da0-492e-b1ba-cb84c41fbea8.png)
+
 c.	To view the list of possible set commands that you can do with a crypto map, use the help function.
 
+![2023-04-14_16-58-14](https://user-images.githubusercontent.com/122459067/232065173-820a0ed0-d9df-444a-bd9d-62458933e8be.png)
+
 d.	Setting a peer IP or hostname is required. Set it to R3’s remote VPN endpoint interface using the following command.
+
+![2023-04-14_16-59-08](https://user-images.githubusercontent.com/122459067/232065486-18a10872-e0de-4ffa-a829-0c6c477322a2.png)
 
 e.	Use the set transform-set tag command to hard code the transform set to be used with this peer. Set the perfect forwarding secrecy type using the set pfs type command, and modify the default IPsec security association life time with the set security-association lifetime seconds seconds command.
 
@@ -220,12 +229,15 @@ f.	Create a mirrored matching crypto map on R3.
 g.	Apply the crypto maps to the appropriate interfaces on R1 and R3.
 
 #### Task 2: Verify the Site-to-Site IPsec VPN Configuration.
+
 ##### Step 7: Verify the IPsec configuration on R1 and R3.
+
 a.	Previously, you used the show crypto isakmp policy command to display the configured ISAKMP policies on the router. The show crypto ipsec transform-set command displays the configured IPsec policies in the form of the transform sets.
 
 a.	Use the show crypto map command to display the crypto maps that will be applied to the router.
 
 #### Task 3: Verify the IPsec VPN Operation.
+
 ##### Step 8: Display ISAKMP security associations.
 
 ##### Step 9: Display IPsec security associations.
