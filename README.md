@@ -116,8 +116,13 @@ d.	Configure the vty lines on R1 and R3 to use the local database for login. Rem
 
 ![2023-04-14_16-10-53](https://user-images.githubusercontent.com/122459067/232053031-fe2ccaff-9ab2-4ec9-92c3-14391062ee03.png)
 
-##### Step 10: Save the basic running configuration for all three routers.
-Save the running configuration to the startup configuration from the privileged EXEC mode prompt on R1, R2, and R3.
+##### Step 10: Save the basic running configuration for all three routers. Save the running configuration to the startup configuration from the privileged EXEC mode prompt on R1, R2, and R3.
+
+![2023-04-14_16-12-46](https://user-images.githubusercontent.com/122459067/232053395-a7a2a2ea-d0d2-4d89-991b-5de609b35c60.png)
+
+![2023-04-14_16-13-28](https://user-images.githubusercontent.com/122459067/232053530-0f0f23fa-756a-4db8-893b-a0a8818f1772.png)
+
+![2023-04-14_16-14-00](https://user-images.githubusercontent.com/122459067/232053647-391da143-3bcd-49a4-b818-75175cdb74f7.png)
 
 #### Part 2: Configure a Site-to-Site VPN with Cisco IOS
 #### Task 1: Configure IPsec VPN Settings on R1 and R3.
