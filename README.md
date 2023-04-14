@@ -24,10 +24,11 @@ Test IPsec VPN operation.
 #### Part 1: Configure Basic Device Settings
 
 ##### Step 1: Cable the network as shown in the topology.
-a.	Configure hostnames, as shown in the topology.
 
 ![2023-04-14_15-08-52](https://user-images.githubusercontent.com/122459067/232039633-33c1ee6a-546b-4fd0-8dee-e712275e3677.png)
 
+##### Step 2: Configure basic settings for each router.
+a.	Configure hostnames, as shown in the topology.
 b.	Configure the interface IP addresses, as shown in the Addressing Table.
 
 ![2023-04-14_15-16-43](https://user-images.githubusercontent.com/122459067/232041144-33768e65-f935-4668-b054-63e2453062de.png)
@@ -39,8 +40,6 @@ b.	Configure the interface IP addresses, as shown in the Addressing Table.
 ![2023-04-14_15-24-26](https://user-images.githubusercontent.com/122459067/232042666-692237f5-e3f1-49c2-b0e3-4aab51985ab6.png)
 
 ![2023-04-14_15-25-26](https://user-images.githubusercontent.com/122459067/232042897-13c2fe7d-c8e8-4609-b643-b7a4fa4a81fd.png)
-
-##### Step 2: Configure basic settings for each router.
 
 ##### Step 3: Disable DNS lookup.
 
