@@ -39,10 +39,6 @@ b.	Configure the interface IP addresses, as shown in the Addressing Table.
 
 ![2023-04-14_15-22-40](https://user-images.githubusercontent.com/122459067/232042341-9c43ba1c-a5b4-4f99-a66f-31bea1832e9f.png)
 
-![2023-04-14_15-24-26](https://user-images.githubusercontent.com/122459067/232042666-692237f5-e3f1-49c2-b0e3-4aab51985ab6.png)
-
-![2023-04-14_15-25-26](https://user-images.githubusercontent.com/122459067/232042897-13c2fe7d-c8e8-4609-b643-b7a4fa4a81fd.png)
-
 ##### Step 3: Disable DNS lookup.
 
 ![2023-04-14_15-30-14](https://user-images.githubusercontent.com/122459067/232043894-085aed90-cbd0-4a6a-8a34-03ac44ac50be.png)
@@ -66,9 +62,14 @@ c.	On R3, use the following commands:
 ![2023-04-14_15-35-54](https://user-images.githubusercontent.com/122459067/232045136-bbe7113c-12f8-462e-a349-34c35d26a2d1.png)
 
 ##### Step 5: Configure PC host IP settings.
+
 a.	Configure a static IP address, subnet mask, and default gateway for PC-A, as shown in the IP Addressing Table.
+
+![2023-04-14_15-24-26](https://user-images.githubusercontent.com/122459067/232042666-692237f5-e3f1-49c2-b0e3-4aab51985ab6.png)
+
 b.	Configure a static IP address, subnet mask, and default gateway for PC-C, as shown in the IP Addressing Table.
 
+![2023-04-14_15-25-26](https://user-images.githubusercontent.com/122459067/232042897-13c2fe7d-c8e8-4609-b643-b7a4fa4a81fd.png)
 
 ##### Step 6: Verify basic network connectivity.
 a.	Ping from R1 to the R3 G0/0/1 interface at IP address 192.168.3.1.
