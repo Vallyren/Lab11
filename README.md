@@ -72,11 +72,16 @@ b.	Configure a static IP address, subnet mask, and default gateway for PC-C, as 
 ![2023-04-14_15-25-26](https://user-images.githubusercontent.com/122459067/232042897-13c2fe7d-c8e8-4609-b643-b7a4fa4a81fd.png)
 
 ##### Step 6: Verify basic network connectivity.
+
 a.	Ping from R1 to the R3 G0/0/1 interface at IP address 192.168.3.1.
 If the pings are unsuccessful, troubleshoot the basic device configurations before continuing.
+
+![2023-04-14_15-39-12](https://user-images.githubusercontent.com/122459067/232045908-927fde5d-8ff8-4a70-9057-9af6eedcd7c8.png)
+
 b.	Ping from PC-A on the R1 LAN to PC-C on the R3 LAN.
 If the pings are unsuccessful, troubleshoot the basic device configurations before continuing.
 
+![2023-04-14_15-40-05](https://user-images.githubusercontent.com/122459067/232046082-3e0f8cde-023e-4a87-9a03-5d99dfa4e092.png)
 
 ##### Step 7: Configure and encrypt passwords.
 a.	Configure a minimum password length.
