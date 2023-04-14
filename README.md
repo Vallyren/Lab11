@@ -196,9 +196,13 @@ c.	You can also change the IPsec security association lifetime from the default 
 ##### Step 5: Define interesting traffic.
 a.	Configure the IPsec VPN interesting traffic ACL on R1.
 
+![2023-04-14_16-53-42](https://user-images.githubusercontent.com/122459067/232063699-9655bc1a-c20e-4f0f-ab53-840e2b0442ed.png)
+
 b.	Configure the IPsec VPN interesting traffic ACL on R3.
 Does IPsec evaluate whether the access lists are mirrored as a requirement to negotiate its security association?
 Type your answers here.
+
+![2023-04-14_16-54-32](https://user-images.githubusercontent.com/122459067/232063978-b746ea6f-9c4f-4583-a12b-4ce9e5cb4def.png)
 
 ##### Step 6: Create and apply a crypto map.
 a.	Create the crypto map on R1, name it CMAP, and use 10 as the sequence number. A message displays after the command is issued.
