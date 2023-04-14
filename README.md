@@ -168,7 +168,11 @@ c.	Verify the IKE policy with the show crypto isakmp policy command.
 ##### Step 3: Configure pre-shared keys.
 a.	Each IP address that is used to configure the IKE peers is also referred to as the IP address of the remote VPN endpoint. Configure the pre-shared key of cisco123 on router R1. Production networks should use a complex key. This command points to the remote peer R3 G0/0/0 IP address.
 
+![2023-04-14_16-45-24](https://user-images.githubusercontent.com/122459067/232060805-fd8b36d2-066e-4ee3-8e08-f4e6802a86f6.png)
+
 b.	Configure the pre-shared key cisco123 on router R3. The command for R3 points to the R1 S0/0/0 IP address.
+
+![2023-04-14_16-46-13](https://user-images.githubusercontent.com/122459067/232061035-4887b790-703e-4808-81ca-c703a0a2b4c3.png)
 
 ##### Step 4: Configure the IPsec transform set and lifetime.
 a.	The IPsec transform set is another crypto configuration parameter that routers negotiate to form a security association. To create an IPsec transform set, use the crypto ipsec transform-set tag command where tag is a name configured by the administrator. Use ? to see which parameters are available.
