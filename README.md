@@ -84,11 +84,16 @@ If the pings are unsuccessful, troubleshoot the basic device configurations befo
 ![2023-04-14_15-40-05](https://user-images.githubusercontent.com/122459067/232046082-3e0f8cde-023e-4a87-9a03-5d99dfa4e092.png)
 
 ##### Step 7: Configure and encrypt passwords.
-a.	Configure a minimum password length.
-Use the security passwords command to set a minimum password length of 10 characters.
+
+a.	Configure a minimum password length. Use the security passwords command to set a minimum password length of 10 characters.
+
 b.	Configure the enable secret password on both routers with a password of cisco12345. Use the type 9 (SCRYPT) hashing algorithm.
+
 c.	Create a local admin01 account using admin01pass for the password. Use the type 9 (SCRYPT) hashing algorithm.
 
+![2023-04-14_15-49-09](https://user-images.githubusercontent.com/122459067/232048247-dcfa6859-643a-46a5-8462-c44d277a0ec4.png)
+
+![2023-04-14_15-51-13](https://user-images.githubusercontent.com/122459067/232048524-a0a57002-3657-4099-93d3-8f6cc523a820.png)
 
 ##### Step 8: Configure the console line.
 Configure the console to use the local database for login. For additional security, configure the line to log out after five minutes of inactivity. Issue the logging synchronous command to prevent console messages from interrupting command entry.
