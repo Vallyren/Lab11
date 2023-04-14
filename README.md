@@ -144,7 +144,11 @@ b.	Establish an ISAKMP policy and view the available options.
 To allow IKE Phase 1 negotiation, you must create an ISAKMP policy and configure a peer association for that ISAKMP policy. An ISAKMP policy defines the authentication and encryption algorithms and the hash function used to send control traffic between the two VPN endpoints. When an ISAKMP security association has been accepted by the IKE peers, IKE Phase 1 has been completed. IKE Phase 2 parameters will be configured later.
 Issue the crypto isakmp policy number global configuration mode command on R1 for policy 10.
 
+![2023-04-14_16-26-44](https://user-images.githubusercontent.com/122459067/232056586-77e8f358-f345-4874-a55d-c0c1ab253452.png)
+
 c.	View the various IKE parameters available using Cisco IOS help by typing a question mark (?).
+
+![2023-04-14_16-27-44](https://user-images.githubusercontent.com/122459067/232056783-4907bf50-0ea2-44a4-b4b0-b5c09d2268e3.png)
 
 ##### Step 2: Configure the IKE Phase 1 ISAKMP policy on R1 and R3.
 a.	Configure an ISAKMP policy with a priority of 10. Use pre-shared key as the authentication type, aes 256 for the encryption algorithm, sha as the hash algorithm, and the Diffie-Hellman group 24 key exchange. Give the policy a lifetime of 3600 seconds (one hour).
