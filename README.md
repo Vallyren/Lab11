@@ -136,6 +136,10 @@ a.	Verify that IKE is supported and enabled.
 IKE Phase 1 defines the key exchange method used to pass and validate IKE policies between peers. In IKE Phase 2, the peers exchange and match IPsec policies for the authentication and encryption of data traffic.
 IKE must be enabled for IPsec to function. IKE is enabled, by default, on IOS images with cryptographic feature sets. If it is disabled, you can enable it with the crypto isakmp enable command. Use this command to verify that the router IOS supports IKE and that it is enabled.
 
+![2023-04-14_16-21-54](https://user-images.githubusercontent.com/122459067/232055427-1a0a52d6-028c-4a31-9d80-83d29127d3fe.png)
+
+![2023-04-14_16-24-03](https://user-images.githubusercontent.com/122459067/232055953-b6fecb11-73d0-4d73-9533-28fc4bfb95c9.png)
+
 b.	Establish an ISAKMP policy and view the available options.
 To allow IKE Phase 1 negotiation, you must create an ISAKMP policy and configure a peer association for that ISAKMP policy. An ISAKMP policy defines the authentication and encryption algorithms and the hash function used to send control traffic between the two VPN endpoints. When an ISAKMP security association has been accepted by the IKE peers, IKE Phase 1 has been completed. IKE Phase 2 parameters will be configured later.
 Issue the crypto isakmp policy number global configuration mode command on R1 for policy 10.
