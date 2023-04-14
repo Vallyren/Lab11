@@ -177,11 +177,21 @@ b.	Configure the pre-shared key cisco123 on router R3. The command for R3 points
 ##### Step 4: Configure the IPsec transform set and lifetime.
 a.	The IPsec transform set is another crypto configuration parameter that routers negotiate to form a security association. To create an IPsec transform set, use the crypto ipsec transform-set tag command where tag is a name configured by the administrator. Use ? to see which parameters are available.
 
+![2023-04-14_16-47-47](https://user-images.githubusercontent.com/122459067/232061478-4661de5e-31d1-4370-97bd-6595a967292a.png)
+
 b.	On R1 and R3, create a transform set with tag R1-R3 and use an ESP transform with an AES 256 cipher with ESP and the SHA hash function. The transform sets must match on both ends of the VPN.
 What is the function of the IPsec transform set?
 Type your answers here.
 
+![2023-04-14_16-48-45](https://user-images.githubusercontent.com/122459067/232061719-97275910-0a1f-4462-a3e1-01eb53e4d093.png)
+
+![2023-04-14_16-49-33](https://user-images.githubusercontent.com/122459067/232061989-e9262f36-2953-4e14-b538-e94072936099.png)
+
 c.	You can also change the IPsec security association lifetime from the default of 3600 seconds. On R1 and R3, set the IPsec security association lifetime to 30 minutes, or 1800 seconds.
+
+![2023-04-14_16-50-09](https://user-images.githubusercontent.com/122459067/232062273-6ff45a16-69c0-455e-924d-94cbf56d9d53.png)
+
+![2023-04-14_16-50-52](https://user-images.githubusercontent.com/122459067/232062594-ca37bcb7-9b5b-4243-900a-430133736c27.png)
 
 ##### Step 5: Define interesting traffic.
 a.	Configure the IPsec VPN interesting traffic ACL on R1.
