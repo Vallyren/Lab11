@@ -99,11 +99,22 @@ c.	Create a local admin01 account using admin01pass for the password. Use the ty
 Configure the console to use the local database for login. For additional security, configure the line to log out after five minutes of inactivity. Issue the logging synchronous command to prevent console messages from interrupting command entry.
 
 ##### Step 9: Configure SSH Server.
+
 a.	Configure a domain name netsec.com.
+
 b.	Configure the RSA keys with 2048 for the number of modulus bits.
+
 c.	Issue the command to force the use of SSH version 2.
+
 d.	Configure the vty lines on R1 and R3 to use the local database for login. Remote access to the routers should only be allowed using SSH. Configure the vty lines to logout after five minutes of inactivity.
 
+![2023-04-14_16-03-08](https://user-images.githubusercontent.com/122459067/232051330-53d4ca0e-6834-47dc-811d-7363e3128345.png)
+
+![2023-04-14_16-04-46](https://user-images.githubusercontent.com/122459067/232051581-d25052ea-0ebc-437c-80aa-76ab50a75067.png)
+
+![2023-04-14_16-08-05](https://user-images.githubusercontent.com/122459067/232052444-3371f9bf-4719-4275-aaa9-2fd624b92f8f.png)
+
+![2023-04-14_16-10-53](https://user-images.githubusercontent.com/122459067/232053031-fe2ccaff-9ab2-4ec9-92c3-14391062ee03.png)
 
 ##### Step 10: Save the basic running configuration for all three routers.
 Save the running configuration to the startup configuration from the privileged EXEC mode prompt on R1, R2, and R3.
