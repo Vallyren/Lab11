@@ -52,12 +52,18 @@ b.	Configure the interface IP addresses, as shown in the Addressing Table.
 ![2023-04-14_15-31-36](https://user-images.githubusercontent.com/122459067/232044166-21ec1761-1043-4372-b4ba-1b16414714ec.png)
 
 ##### Step 4: Configure the OSPF routing protocol on R1, R2, and R3.
+
 a.	On R1, use the following commands:
+
+![2023-04-14_15-33-32](https://user-images.githubusercontent.com/122459067/232044643-2840c01e-d0d1-4a08-a46e-8cdb401cc669.png)
 
 b.	On R2, use the following commands:
 
+![2023-04-14_15-34-54](https://user-images.githubusercontent.com/122459067/232044895-097a2dc2-ecaf-4883-bf1b-1eda78cdc0c9.png)
+
 c.	On R3, use the following commands:
 
+![2023-04-14_15-35-54](https://user-images.githubusercontent.com/122459067/232045136-bbe7113c-12f8-462e-a349-34c35d26a2d1.png)
 
 ##### Step 5: Configure PC host IP settings.
 a.	Configure a static IP address, subnet mask, and default gateway for PC-A, as shown in the IP Addressing Table.
