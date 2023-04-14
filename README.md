@@ -153,9 +153,17 @@ c.	View the various IKE parameters available using Cisco IOS help by typing a qu
 ##### Step 2: Configure the IKE Phase 1 ISAKMP policy on R1 and R3.
 a.	Configure an ISAKMP policy with a priority of 10. Use pre-shared key as the authentication type, aes 256 for the encryption algorithm, sha as the hash algorithm, and the Diffie-Hellman group 24 key exchange. Give the policy a lifetime of 3600 seconds (one hour).
 
+![2023-04-14_16-31-13](https://user-images.githubusercontent.com/122459067/232057567-fef7ffff-4928-41cc-959c-beb05d4dd32f.png)
+
 b.	Configure the same policy on R3.
 
+![2023-04-14_16-32-53](https://user-images.githubusercontent.com/122459067/232057889-be9e19c1-ee65-436f-ad52-a5458b14a037.png)
+
 c.	Verify the IKE policy with the show crypto isakmp policy command.
+
+![2023-04-14_16-33-38](https://user-images.githubusercontent.com/122459067/232058048-43697a68-dffd-4c68-b7dc-088b6a9654f9.png)
+
+![2023-04-14_16-34-13](https://user-images.githubusercontent.com/122459067/232058173-053f33c0-d93b-4ede-97a3-71a911ac7e00.png)
 
 ##### Step 3: Configure pre-shared keys.
 a.	Each IP address that is used to configure the IKE peers is also referred to as the IP address of the remote VPN endpoint. Configure the pre-shared key of cisco123 on router R1. Production networks should use a complex key. This command points to the remote peer R3 G0/0/0 IP address.
