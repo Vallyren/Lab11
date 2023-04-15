@@ -269,16 +269,43 @@ Why haven’t any SAs been negotiated?
 Type your answers here.
 
 ##### Step 10: Generate some uninteresting test traffic and observe the results.
+
 a.	Ping from R1 to the R3 G0/0/0 interface IP address 10.2.2.1. These pings should be successful.
+
+![2023-04-15_09-48-50](https://user-images.githubusercontent.com/122459067/232193457-bec5aa62-0a6d-46a6-9430-bf00a7dcdbbe.png)
+
 b.	Issue the show crypto isakmp sa command.
+
+![2023-04-15_09-49-59](https://user-images.githubusercontent.com/122459067/232193545-e17a76ce-544c-4a93-922c-2f6097b980ec.png)
+
 c.	Ping from R1 to the R3 G0/0/1 interface IP address 192.168.3.1. These pings should be successful.
+
+![2023-04-15_09-51-00](https://user-images.githubusercontent.com/122459067/232193585-fa97e732-c928-4c26-9d54-e7d72dd26f02.png)
+
 d.	Issue the show crypto isakmp sa command again.
+
+![2023-04-15_09-51-42](https://user-images.githubusercontent.com/122459067/232193608-0ba06d51-9ab3-4be6-b3e3-d4e3aa4ed7be.png)
+
 Question:
 Was an SA created for these pings? Explain.
 Type your answers here.
+
 e.	Issue the debug ip ospf hello command. You should see OSPF hello packets passing between R1 and R3.
+
+![2023-04-15_09-53-23](https://user-images.githubusercontent.com/122459067/232193699-29e51e85-e71e-455b-becc-d29cd6d097a0.png)
+
+![2023-04-15_09-54-57](https://user-images.githubusercontent.com/122459067/232193765-29e03fbb-1e80-4669-b99b-7a2f0f5c85a8.png)
+
 f.	Turn off debugging with the no debug ip ospf hello or undebug all command.
+
+![2023-04-15_09-55-49](https://user-images.githubusercontent.com/122459067/232193800-86d4aa03-5bd2-47b9-a9bd-eeb74180ca01.png)
+
+![2023-04-15_09-56-26](https://user-images.githubusercontent.com/122459067/232193829-28c4e452-0635-42aa-bc15-539f744669a5.png)
+
 g.	Re-issue the show crypto isakmp sa command.
+
+![2023-04-15_09-57-10](https://user-images.githubusercontent.com/122459067/232193863-09907b24-ff40-4688-a3a0-daf17a67f869.png)
+
 Question:
 Was an SA created between R1 and R3? Explain.
 Type your answers here.
