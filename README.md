@@ -244,7 +244,15 @@ g.	Apply the crypto maps to the appropriate interfaces on R1 and R3.
 
 a.	Previously, you used the show crypto isakmp policy command to display the configured ISAKMP policies on the router. The show crypto ipsec transform-set command displays the configured IPsec policies in the form of the transform sets.
 
+![2023-04-15_09-41-15](https://user-images.githubusercontent.com/122459067/232192319-15fa8683-2ac0-4113-8946-1dde91f6f290.png)
+
+![2023-04-15_09-42-31](https://user-images.githubusercontent.com/122459067/232192633-d1a50478-1922-4862-b66e-4487bd868f37.png)
+
 a.	Use the show crypto map command to display the crypto maps that will be applied to the router.
+
+![2023-04-15_09-43-34](https://user-images.githubusercontent.com/122459067/232192828-315c0a20-0f11-4a8b-96e1-92519dd19a4a.png)
+
+![2023-04-15_09-44-20](https://user-images.githubusercontent.com/122459067/232192984-0a0b3f8c-947f-4148-87fa-41b7002ba54b.png)
 
 #### Task 3: Verify the IPsec VPN Operation.
 
