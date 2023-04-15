@@ -313,12 +313,22 @@ Type your answers here.
 ##### Step 11: Generate some interesting test traffic and observe the results.
 a.	Use an extended ping from R1 to the R3 G0/1 interface IP address 192.168.3.1. Extended ping allows you to control the source address of the packets. Respond as shown in the following example. Press Enter to accept the defaults, except where a specific response is indicated.
 
+![2023-04-15_10-00-09](https://user-images.githubusercontent.com/122459067/232193999-fd786c2d-9688-4695-81e5-163c48b7cbd7.png)
+
 h.	Re-issue the show crypto isakmp sa command.
+
+![2023-04-15_10-01-22](https://user-images.githubusercontent.com/122459067/232194038-34a0fac2-0401-4def-bc64-87eabbed462e.png)
+
 Questions:
 Why was an SA created between R1 and R3 this time?
 Type your answers here.
 What are the endpoints of the IPsec VPN tunnel?
 Type your answers here.
 i.	Ping from PC-A to PC-C and then issue the show crypto ipsec sa command.
+
+![2023-04-15_10-02-58](https://user-images.githubusercontent.com/122459067/232194108-75bd53c3-4158-48a5-b101-d02e1117fe36.png)
+
+![2023-04-15_10-03-56](https://user-images.githubusercontent.com/122459067/232194147-e3f85947-a354-44ec-8451-50814c05f89b.png)
+
 Question:
 How many packets have been transformed between R1 and R3?
