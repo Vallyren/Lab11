@@ -258,7 +258,11 @@ a.	Use the show crypto map command to display the crypto maps that will be appli
 
 ##### Step 8: Display ISAKMP security associations.
 
+![2023-04-15_09-45-29](https://user-images.githubusercontent.com/122459067/232193292-6d82cc5d-ac58-402b-8b75-20d8d572dba3.png)
+
 ##### Step 9: Display IPsec security associations.
+
+![2023-04-15_09-46-22](https://user-images.githubusercontent.com/122459067/232193352-faae38b9-a06e-41d4-a620-845afd27fd84.png)
 
 Question:
 Why haven’t any SAs been negotiated?
