@@ -224,9 +224,19 @@ d.	Setting a peer IP or hostname is required. Set it to R3’s remote VPN endpoi
 
 e.	Use the set transform-set tag command to hard code the transform set to be used with this peer. Set the perfect forwarding secrecy type using the set pfs type command, and modify the default IPsec security association life time with the set security-association lifetime seconds seconds command.
 
+![2023-04-15_08-51-48](https://user-images.githubusercontent.com/122459067/232187176-b840002e-d2cf-419a-9c9d-578fbfad26fe.png)
+
+![2023-04-15_08-55-25](https://user-images.githubusercontent.com/122459067/232187267-a6b6ae70-d30c-426d-871f-f593faa23441.png)
+
 f.	Create a mirrored matching crypto map on R3.
 
+![2023-04-15_08-57-55](https://user-images.githubusercontent.com/122459067/232187357-6a423a2b-10f3-4e1b-86a0-8445829e8d4b.png)
+
 g.	Apply the crypto maps to the appropriate interfaces on R1 and R3.
+
+![2023-04-15_08-59-25](https://user-images.githubusercontent.com/122459067/232187421-0cbe8f5a-5627-448a-b8f9-20da7808de1c.png)
+
+![2023-04-15_09-00-26](https://user-images.githubusercontent.com/122459067/232187452-f92f46b5-c845-4530-b15d-aa0208edd041.png)
 
 #### Task 2: Verify the Site-to-Site IPsec VPN Configuration.
 
